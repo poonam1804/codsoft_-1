@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    color: brown;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #aaff; /* Correct the color value */
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    transform: translateY(20vh);
+}
+.article h1 {
+    font-size: 36px;
+    color: blue;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+.article p {
+    font-size: 18px;
+    color: crimson;
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 200px; /* Add more margin at the bottom to separate paragraphs */
+    white-space: nowrap;
+}
+.article .btn{
+    color: black;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blueviolet;
+}
+.article .btn:hover{
+    background-color: chartreuse;
+    transition: 0.5s ease;
+}
